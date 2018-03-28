@@ -1,0 +1,31 @@
+
+.banner {
+    width: 200px;
+    height: 30px;
+    background-color: palevioletred;
+    position: relative;
+    bottom: 58px;
+    right: 15px;
+    transform: rotate(-5deg);
+    box-shadow: 0 4px 10px rgba(0,0,0,.75);
+    transition: 100ms ease all;
+  }
+  
+  .banner:hover {
+    transform: scale(1.1) rotate(-2deg);
+    background-color: pink;
+  }
+  
+  .banner-text {
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 2px;
+    text-transform: uppercase;
+  }
+
+  .fact {
+color: red;
+  }
